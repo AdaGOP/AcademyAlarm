@@ -124,7 +124,7 @@ struct AlarmListRow: View {
 struct AddAlarmSheet: View {
     // TODO: Annotate alarms and isPresented with @Binding to allow adding new alarms to the list and dismissing the sheet
     var alarms: [Alarm]
-    // TODO: Annotate isPresented with @State to control sheet presentation
+    // TODO: Annotate isPresented with @Binding to control sheet presentation
     var isPresented: Bool
 
     @State private var label = ""
